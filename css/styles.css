@@ -1,0 +1,11 @@
+.logo {
+    position: absolute;
+    /*left: 55px;*/
+    visibility: hidden;
+}
+
+#logoDiv{
+    /*height: 400px;*/
+    background-color: black;
+    visibility: hidden;
+}
