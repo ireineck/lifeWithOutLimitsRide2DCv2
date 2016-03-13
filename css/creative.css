@@ -581,8 +581,8 @@ text-align: center;
 
 footer{
     /*color: white;*/
-    background: #CF5300;
-    height: 200px;
+    /*background: #CF5300;*/
+    /*height: 200px;*/
 }
 
 .mapFrame{
@@ -608,3 +608,7 @@ footer{
     
 }
 
+#footerText{
+    position: absolute;
+    left:30%;
+}
