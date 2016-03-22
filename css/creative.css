@@ -548,7 +548,8 @@ text-align: center;
 }
 
 #picFrameRoute{
-    width: 80%;
+    text-align: center;
+    width: 100%;
 }
 
 #picFrameRoute img {
@@ -580,7 +581,40 @@ text-align: center;
 
 footer{
     /*color: white;*/
-    background: #CF5300;
-    height: 200px;
+    /*background: #CF5300;*/
+    /*height: 200px;*/
 }
 
+.mapFrame{
+    position: relative;
+    /*left: -5%;*/
+    text-align: left;
+    height: 600px;
+    /*width: 900px;*/
+}
+
+.mapText{
+    font-family: tahoma, arial;
+    position: absolute; 
+    bottom: 0; 
+    height: auto;
+    /*width: 15%;*/
+    width: 60%; 
+    z-index: 600;
+    background: black; 
+    color: #CF5300; 
+    padding: 15px; 
+    opacity: .8;
+    
+}
+
+.sliderController :hover{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-size: 20px;
+}
+
+#footerText{
+    position: absolute;
+    left:30%;
+}
