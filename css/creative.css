@@ -477,13 +477,25 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-#logoDiv{
-    height: 300px;
-    width: 40%;
-/*    background-color: black;*/
-   background-color: rgb(3, 3, 3);
+.logoDiv{
+    background-color: black;
     opacity: .62;
     border-radius: 25px;
+}
+
+#logoLargeDiv{
+    height: 300px;
+    width: 36%;
+}
+
+#logoSmallDiv{
+   height: auto;
+   width: 40%;
+}
+
+#logoXsSmallDiv {
+   height: auto;
+   width: 67%;
 }
 
 .leftAlign{
