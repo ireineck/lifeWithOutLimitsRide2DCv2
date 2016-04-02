@@ -631,3 +631,7 @@ footer{
     position: absolute;
     left:30%;
 }
+
+#titleText{
+   font-size: 14px;
+}
