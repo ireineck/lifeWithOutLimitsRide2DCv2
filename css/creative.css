@@ -479,8 +479,9 @@ body {
 
 #logoDiv{
     height: 300px;
-    width: 88%;
-    background-color: black;
+    width: 40%;
+/*    background-color: black;*/
+   background-color: rgb(3, 3, 3);
     opacity: .62;
     border-radius: 25px;
 }
